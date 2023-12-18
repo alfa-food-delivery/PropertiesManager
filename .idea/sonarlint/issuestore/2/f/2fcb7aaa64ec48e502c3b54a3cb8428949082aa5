@@ -1,0 +1,8 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ûë€ò8ôœšóÅ1
+˜
+java:S1130	"vRemove the declaration of thrown exception 'java.io.FileNotFoundException', as it cannot be thrown from method's body.(¹²Ý´ûÿÿÿÿ8öœšóÅ1
+W	java:S125"<This block of commented-out lines of code should be removed.(äÂâ8úœšóÅ1
+M
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º8úœšóÅ1
