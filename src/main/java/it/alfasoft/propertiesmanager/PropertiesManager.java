@@ -24,14 +24,14 @@ public class PropertiesManager {
                 prop.setProperty(userKey, dbUser);
                 prop.setProperty(passwordKey, dbPassword);
             }
-            /*
-            else { // . . .
+
+            else {
                     //try (FileInputStream input = new FileInputStream("C:\\Users\\alebr\\Documents\\FoodDelivery\\FoodDelivery\\PropertiesManager\\src\\main\\resources\\config.properties")) {
                     try ( InputStream input = PropertiesManager.class.getClassLoader().getResourceAsStream("config.properties") ) {
                         prop.load(input);
                     }catch (Exception e) { System.out.println("File non trovato"); }
             }
-            */
+
         }
         return prop;
     }
