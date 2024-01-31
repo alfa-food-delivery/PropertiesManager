@@ -11,9 +11,9 @@ public class PropertiesManager {
         if(prop==null){
             prop = new Properties();
             
-            String urlKey = "db.url";
-            String userKey = "db.user";
-            String passwordKey = "db.password";
+            String urlKey = "dburl";
+            String userKey = "dbuser";
+            String passwordKey = "dbpassword";
 
             String dbUrl = System.getenv(urlKey);
             String dbUser = System.getenv(userKey);
